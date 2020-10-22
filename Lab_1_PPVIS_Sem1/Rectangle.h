@@ -15,6 +15,11 @@ public:
 	Rectangle(const Rectangle &other);
 
 	void SetRectangle(int, int, int, int);
+
+	int GetX1() const;
+	int GetX2() const;
+	int GetY1() const;
+	int GetY2() const;
 	string GetCoordinates();
 
 	void MoveRectungle(int, int);

@@ -42,6 +42,26 @@ void Rectangle::SetRectangle(int _x1, int _y1, int _x2, int _y2)
 	(_y1 < _y2) ? (y1 = _y1, y2 = _y2) : (y1 = _y2, y2 = _y1);
 }
 
+int Rectangle::GetX1() const
+{
+	return x1;
+}
+
+int Rectangle::GetX2() const
+{
+	return x2;
+}
+
+int Rectangle::GetY1() const
+{
+	return y1;
+}
+
+int Rectangle::GetY2() const
+{
+	return y2;
+}
+
 string Rectangle::GetCoordinates() 
 {
 	return (" A(" + to_string(this->x1) + "," + to_string(this->y1) + "); B(" + to_string(this->x1) + "," + 

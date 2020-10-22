@@ -1,0 +1,4 @@
+﻿  Rectangle.cpp
+c:\users\xiaomi\source\repos\lab_1_ppvis_sem1\lab_1_ppvis_sem1\rectangle.cpp(106): warning C4172: returning address of local variable or temporary: temp
+c:\users\xiaomi\source\repos\lab_1_ppvis_sem1\lab_1_ppvis_sem1\rectangle.cpp(120): warning C4172: returning address of local variable or temporary: temp
+  Lab_1_PPVIS_Sem1.vcxproj -> C:\Users\Xiaomi\source\repos\Lab_1_PPVIS_Sem1\Debug\Lab_1_PPVIS_Sem1.exe
